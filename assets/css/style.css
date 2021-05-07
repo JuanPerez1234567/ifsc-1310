@@ -1,4 +1,39 @@
 body
 {
- background-color: crimson;
+ background-image: url("../img/pattern.png");
+
+
+}
+
+body section
+{
+    background-color: white;
+    width:80vw;
+    height: 50vw;
+  margin:20px auto;
+  border:2px #000 solid;
+}
+h1
+{
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+
+    width:50vw;
+    text-align: center;
+    color: yellow;
+    font-size: 50px;
+    text-decoration: none;
+    background: #D9C7AE;
+    background:rgba(100,100,100,.7);
+    padding:8px 16px;
+    border-radius:20px;
+    transition:.5s;
+}
+h2{
+    color:green;
+    border-bottom: 2px green solid;
+}
+nav li{
+   margin:10px auto;
 }

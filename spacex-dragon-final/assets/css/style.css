@@ -19,7 +19,6 @@ html {
 }
 
 
-
 /* Utility Styles */
 .container{
   width: 80vw;
@@ -29,10 +28,12 @@ html {
 .img
 {
   
+  
   margin:10px 20px 10px 0;
   border:1px solid #c0c0c0;
   padding:5px;
 }
+
 
 img{
   max-width:100%;
@@ -40,12 +41,45 @@ img{
 }
 
 /*Global Styles */
-body
+body 
 {
+  background-image: url("../img/stars.jpg");
     margin:0;
     font-family: 'Bebas+Neue', sans-serif;
+    
 }
 
+
+body p
+{
+  color:#fff;
+  font-size:25px;
+  text-decoration: none;
+  background: #D9C7AE;
+  background:rgba(0,0,0,.3);
+  padding:8px 16px;
+  border-radius:20px;
+  transition:.5s;
+  
+}
+body h4
+{
+  color:#fff;
+  font-size:25px;
+}
+body h3
+{
+  
+  font-size:30px;
+}
+
+header
+{
+  background-image: url("../img/grey.png");
+}
+header a{
+  font-size: 20px;
+}
 header.primary
 {
     background-color:#86B1EB;
@@ -88,7 +122,7 @@ body h2{
     color:#698BB8;
     border-bottom:10px solid;
     text-shadow: 1px 0px #100000;
-    font-size: 1.8rem;
+    font-size: 40px;
 }
 
 #content  section{
@@ -135,7 +169,8 @@ aside p{
 
 footer{
   margin-top: 100px;
-   background-color:#5D636B;
+ 
+   background-image: url("../img/grey.png");
     padding:10px 0px;
 }
 footer h6{
@@ -181,18 +216,28 @@ table tr:nth-child(even){
   color:#fff;
   border:2px solid #3D516B;
 }
-table tr:hover{
-  background-color:#86B1EB ;
+table tr:nth-child(odd){
+  background-image: url("../img/grey.png") ;
+  color:#fff;
+  border:2px solid #3D516B;
 }
+
 table caption{
+ text-decoration: none;
+  background: #D9C7AE;
+  background:rgba(80,80,80,.3);
+  padding:8px 16px;
+  border-radius:20px;
+  transition:.5s;
+  
   color:#3D516B;
   padding:10px;
   font-weight: bold;
-  font-size: 1.4rem;
+  font-size: 1.8rem;
 }
 
 #qanda{
-    border-bottom: 1px dashed #698BB8
+    border-bottom: 3px dashed #698BB8
 }
 #qanda h3{
     color:#86B1EB 
